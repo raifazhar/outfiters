@@ -1,0 +1,32 @@
+#header .header-main {
+  padding: 0 1.5rem;
+  padding-top: 30px;
+  padding-bottom: 4px;
+}
+
+#header marquee {
+  position: fixed;
+  padding: 0.3rem 1rem;
+  height: 3rem;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  font-size: 14px;
+}
+
+#header path {
+  fill: black !important;
+}
+
+#header .svg-logo svg {
+  width: 13rem !important;
+  height: auto !important;
+}
+
+#header summary {
+  list-style: none;
+}
+
+#header .icon-close {
+  display: none;
+}

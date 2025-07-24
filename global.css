@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.p-0 {
+  padding: 0;
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 1rem;
+}
+.p-4 {
+  padding: 1.5rem;
+}
+.p-5 {
+  padding: 2rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.pl-1 {
+  padding-left: 0.25rem;
+}
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.px-1_5 {
+  padding: 0 1.5rem;
+}
+
+/* Margin */
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 0.25rem;
+}
+.m-2 {
+  margin: 0.5rem;
+}
+.m-3 {
+  margin: 1rem;
+}
+.m-4 {
+  margin: 1.5rem;
+}
+.m-5 {
+  margin: 2rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.ml-1 {
+  margin-left: 0.25rem;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+/* Flex Utilities */
+.d-flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-end {
+  justify-content: end;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.i-flex {
+  display: inline-flex;
+}
+.justify-self-end {
+  justify-self: end;
+}
+
+/* Border */
+.border {
+  border: 1px solid #ccc;
+}
+.border-0 {
+  border: none;
+}
+.border-top {
+  border-top: 1px solid #ccc;
+}
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+.border-left {
+  border-left: 1px solid #ccc;
+}
+.border-right {
+  border-right: 1px solid #ccc;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+
+/* Misc */
+.hidden {
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.width-max {
+  width: 100%;
+}
+
+.height-max {
+  height: 100%;
+}
+
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.d-grid {
+  display: grid;
+}

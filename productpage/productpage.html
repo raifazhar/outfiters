@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="productpage.css">
+    <title>Outfitters</title>
+</head>
+
+<body>
+    <header id="header" class="width-max">hello</header>
+
+    <div class="main_page">
+
+    </div>
+
+    <footer id="footer"></footer>
+    <script>
+        fetch('../header/header.html')
+            .then(res => res.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+
+        fetch('../footer/footer.html')
+            .then(res => res.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+</body>
+
+</html>
