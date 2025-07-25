@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../footer/footer.css">
     <link rel="stylesheet" href="../global.css">
     <link rel="stylesheet" href="productpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Outfitters</title>
 </head>
 
@@ -18,11 +19,41 @@
         <div class="product-wrapper">
             <div class="product-container d-flex justify-between">
 
-                <div class="image-container">
-                    <div>
-                        <img src="//outfitters.com.pk/cdn/shop/files/F1467106814.jpg?v=1752644629" alt="Mushroom"
-                            class="contain">
+                <div class="image-container relative">
+                    <div class="photo-swiper ">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814.jpg?v=1752644629" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814_877d792f-bedf-46aa-a276-2557eca0cf34.jpg?v=1752644629"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814..jpg?v=1752644629"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814.jpg?v=1752644629" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814.jpg?v=1752644629" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814_877d792f-bedf-46aa-a276-2557eca0cf34.jpg?v=1752644629"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814..jpg?v=1752644629"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://outfitters.com.pk/cdn/shop/files/F1467106814.jpg?v=1752644629" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
+
                 </div>
 
                 <div class="description-wrapper">
@@ -150,6 +181,20 @@
         fetch('../footer/footer.html')
             .then(res => res.text())
             .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".photo-swiper", {
+            direction: "vertical",
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+
+        });
     </script>
 </body>
 
