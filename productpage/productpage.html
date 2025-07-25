@@ -18,7 +18,6 @@
     <div class="main_page">
         <div class="product-wrapper">
             <div class="product-container d-flex justify-between">
-
                 <div class="image-container relative">
                     <div class="photo-swiper ">
                         <div class="swiper-wrapper">
@@ -66,15 +65,20 @@
                         </div>
                         <div class="product-description width-max ">
                             <span class="product-description-heading">Description</span>
-                            <p><span class="metafield-multi_line_text_field">Get back to basics with our Basic Crew Neck
+                            <p>
+                                <span class="description">Get back to basics with our Basic Crew
+                                    Neck
                                     Get back to basics with our Basic Crew Neck T-Shirt. Made of comfortable cotton,
                                     this
                                     regular fit shirt is perfect for
                                     everyday wear. No need for anything fancy, just a classic and reliable choice for
                                     your
-                                    wardrobe.<br>
+                                    wardrobe.
                                     <br>
-                                    Model Details: The model is wearing size: L; Model height: 5.11ft</span></p>
+                                    <br>
+                                    Model Details: The model is wearing size: L; Model height: 5.11ft
+                                </span>
+                            </p>
                         </div>
                         <div class="variant-data">
                             <div class="fit d-flex justify-start align-center width-max">
@@ -84,11 +88,7 @@
                             <div class="colorswatch-container d-flex justify-start align-center width-max">
                                 <span class="label">Colors</span>
                                 <div class="color-swatch d-flex justify-start align-center ">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
+
                                 </div>
                             </div>
                             <div class="sizeswatch d-flex justify-start align-center width-max">
@@ -195,6 +195,112 @@
             },
 
         });
+    </script>
+
+    <script>
+        const productdata =
+        {
+            product_name: "Basic Crew Neck T-Shirt",
+            product_description: "Get back to basics with our Basic Crew Neck T-Shirt. Made of comfortable cotton, this regular fit shirt is perfect for everyday wear. No need for anything fancy, just a classic and reliable choice for your wardrobe.",
+            model_details: "Model Details: The model is wearing size: L; Model height: 5.11ft",
+            fit: "regular fit",
+            price: "2,290",
+            color:
+                [
+                    {
+                        color_name: "white",
+                        color_code: "#ffffff",
+                        discount: 0,
+                        images: [
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106001_4_c8a7b520-6a88-4303-ae56-56297e7cb089.jpg?v=1740979296",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106001_3_45887ef6-d089-4d45-9001-da12ef77a8de.jpg?v=1740979296",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106001_2_ce8ad4ad-1d25-4956-a7ac-0d184f93b2da.jpg?v=1740979296",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106001_1.jpg?v=1740979296",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106001_2.jpg?v=1740979296",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106001_3.jpg?v=1740979296",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106001_4.jpg?v=1740979296"
+                        ],
+                        size: ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                        color_name: "black",
+                        color_code: "#000000",
+                        discount: 30,
+                        images: [
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_3.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_4.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_2_copy.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_8_copy2.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_3_copy.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_1.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_3.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_4.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_2_copy.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_8_copy2.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_3_copy.jpg?v=1741758631",
+                            "https://outfitters.com.pk/cdn/shop/files/F1467106901_1.jpg?v=1741758631",
+                        ],
+                        size: ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                        color_name: "Dark blue",
+                        color_code: "#00008b",
+                        discount: 0,
+                        images: [],
+                        size: ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                        color_name: "light gray",
+                        color_code: "#d3d3d3",
+                        discount: 0,
+                        images: [],
+                        size: ["S", "M", "L", "XL", "XXL"]
+                    },
+                    {
+                        color_name: "mushroom",
+                        color_code: "#BA9E88",
+                        discount: 0,
+                        images: [],
+                        size: ["S", "M", "L"]
+                    }
+
+                ]
+        }
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const product_container = document.querySelector(".product-container")
+            product_container.querySelector(".product-title").textContent = productdata.product_name
+            product_container.querySelector(".description").innerHTML = `${productdata.product_description} <br> <br> ${productdata.model_details}`
+            product_container.querySelector(".price").textContent = `PKR ${productdata.price}`
+            product_container.querySelector(".fit-name").textContent = productdata.fit
+            const color_swatch = product_container.querySelector(".color-swatch")
+            const swiper_wrapper = product_container.querySelector(".photo-swiper .swiper-wrapper")
+            productdata.color.forEach(color => {
+                const div = document.createElement("div")
+                div.style.backgroundColor = color.color_code
+                div.addEventListener("click", () => {
+                    swiper_wrapper.innerHTML = ""
+                    color.images.forEach(image => {
+                        const swiperdiv = document.createElement("div")
+                        swiperdiv.className = "swiper-slide"
+                        const img = document.createElement("img");
+                        img.src = image;
+                        swiperdiv.appendChild(img);
+                        swiper_wrapper.append(swiperdiv)
+                    })
+                    swiper.update();
+                    swiper.slideTo(0, 500);
+
+                })
+                color_swatch.append(div)
+            })
+
+        })
+
+
+
+
     </script>
 </body>
 

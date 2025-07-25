@@ -34,8 +34,9 @@ h5,
 
 .product-wrapper {
   margin: 24px auto 12px auto;
-  max-width: 80%;
+  max-width: 100%;
 }
+
 .product-wrapper * {
   letter-spacing: -0.1px;
 }
@@ -138,6 +139,7 @@ h5,
   color: transparent;
   border: 1px solid #ddd;
   margin-right: 0.8rem;
+  cursor: pointer;
 }
 
 .variant-data .size-wrapper > label {
@@ -208,7 +210,7 @@ h5,
 }
 
 .photo-swiper {
-  height: 585px;
+  max-height: calc(100vh + -0rem);
   width: 100%;
   overflow: hidden;
 }
@@ -225,7 +227,6 @@ h5,
 
 .photo-swiper .swiper-slide img {
   display: block;
-  height: 585px;
   width: 100%;
   object-fit: contain;
 }
@@ -242,4 +243,15 @@ h5,
   .swiper-pagination-progressbar
   .swiper-pagination-progressbar-fill {
   background: #000000a1;
+}
+@media (min-width: 1200px) {
+  .product-wrapper {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .description-container {
+    padding: 2rem 2rem 2rem 0rem;
+  }
 }
