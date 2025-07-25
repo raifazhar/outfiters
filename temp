@@ -1,39 +1,23 @@
-<details id="Details-menu-drawer-container" class="menu-drawer-container">
-    <summary class="header__icon icon--menu header__icon--menu header__icon--summary link focus-inset" aria-label="Menu"
-        role="button" aria-expanded="false" aria-controls="menu-drawer">
-        <span id="summary-icon">
-            <svg class="new-svg-hamburger" xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 12"
-                fill="black">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M15.75 5.75C15.75 5.33579 15.4142 5 15 5H1C0.585786 5 0.25 5.33579 0.25 5.75C0.25 6.16421 0.585786 6.5 1 6.5H15C15.4142 6.5 15.75 6.16421 15.75 5.75Z"
-                    fill="white"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M15.75 0.75C15.75 0.335786 15.4142 0 15 0H1C0.585786 0 0.25 0.335786 0.25 0.75C0.25 1.16421 0.585786 1.5 1 1.5H15C15.4142 1.5 15.75 1.16421 15.75 0.75Z"
-                    fill="white"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M15.75 10.75C15.75 10.3358 15.4142 10 15 10H1C0.585786 10 0.25 10.3358 0.25 10.75C0.25 11.1642 0.585786 11.5 1 11.5H15C15.4142 11.5 15.75 11.1642 15.75 10.75Z"
-                    fill="white"></path>
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation"
-                class="icon icon-close" fill="none" viewBox="0 0 18 17">
-                <path
-                    d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
-                    fill="currentColor">
-                </path>
-            </svg>
-
-        </span>
-    </summary>
-    <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
-    </div>
-</details>
-
-<a href="#" id="openModal" class="header__icon icon--search">
-    <span class="search-text" style="font-size: initial;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 18 18" fill="black">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M11.3854 12.446C8.73512 14.5687 4.85569 14.4016 2.3989 11.9448C-0.237135 9.30881 -0.237135 5.03494 2.3989 2.3989C5.03494 -0.237135 9.30881 -0.237134 11.9448 2.3989C14.4016 4.85569 14.5687 8.73511 12.446 11.3854L17.6017 16.541C17.8946 16.8339 17.8946 17.3088 17.6017 17.6017C17.3088 17.8946 16.8339 17.8946 16.541 17.6017L11.3854 12.446ZM3.45956 10.8842C1.40931 8.83393 1.40931 5.50982 3.45956 3.45956C5.50982 1.40931 8.83393 1.40931 10.8842 3.45956C12.9329 5.50831 12.9344 8.82905 10.8887 10.8797C10.8872 10.8812 10.8857 10.8827 10.8842 10.8842C10.8827 10.8857 10.8812 10.8872 10.8797 10.8887C8.82906 12.9344 5.50831 12.9329 3.45956 10.8842Z"
-                fill="white"></path>
-        </svg>
-    </span>
-</a>
+<div class="size-wrapper">
+                            
+                          <label >
+                            S
+                          </label>
+                            
+                          <label>
+                            M
+                          </label>
+                            
+                         <label >
+                            L
+                          </label>
+                            
+                                    <label >
+                            XL
+                          </label>
+                            
+                          
+                          <labels>
+                            XXL
+                          </labels>
+                          </div>

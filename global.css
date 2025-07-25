@@ -160,11 +160,7 @@ img {
 .text-center {
   text-align: center;
 }
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 .width-max {
   width: 100%;
 }
@@ -190,4 +186,11 @@ img {
 
 .d-grid {
   display: grid;
+}
+
+.cover {
+  object-fit: cover;
+}
+.contain {
+  object-fit: contain;
 }

@@ -2,6 +2,24 @@
   padding: 0 1.5rem;
   padding-top: 30px;
   padding-bottom: 4px;
+  column-gap: 2rem;
+}
+
+@media screen and (min-width: 750px) {
+  #header .header-main {
+    padding-left: 2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #header .header-main {
+    padding-bottom: 8px;
+  }
+}
+#summary-icon {
+  height: 3.6rem;
+  width: 3.6rem;
 }
 
 #header marquee {
@@ -18,9 +36,11 @@
   fill: black !important;
 }
 
-#header .svg-logo svg {
+#header .svg-logo img {
   width: 13rem !important;
   height: auto !important;
+  padding: 0.75rem;
+  margin-left: -0.75rem;
 }
 
 #header summary {
@@ -29,4 +49,23 @@
 
 #header .icon-close {
   display: none;
+}
+
+.logo-container {
+  gap: 1.7rem;
+}
+
+.icons {
+  width: 100%;
+}
+
+.icons a {
+  height: 3.6rem;
+  width: 3.6rem;
+  margin: 0 1.5rem;
+}
+
+.icons img {
+  width: 1.2rem;
+  height: 1.2rem;
 }
