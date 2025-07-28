@@ -175,6 +175,86 @@ h5,
   text-transform: capitalize;
   text-underline-offset: 0.3rem;
 }
+.size-guide.accordian .accordian-data {
+  width: 55%;
+}
+
+.size-guide.accordian .accordian-data .accordian-description {
+  padding: 0;
+  padding-bottom: 17rem;
+}
+.size-guide.accordian .accordian-data .size-data-container .size-data {
+  width: 55%;
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-top: 15px;
+}
+.size-guide.accordian .accordian-data .size-data-container .size-image {
+  width: 45%;
+}
+
+.size-chart-title h2 {
+  margin-bottom: 25px;
+  font-family: "SF Pro";
+  letter-spacing: 0px;
+  line-height: 1.8;
+  font-size: 25px;
+  font-weight: 700;
+}
+.size-guide.accordian
+  .accordian-data
+  .size-data-container
+  .size-chart-subheading {
+  font-weight: 500;
+  font-family: "SF Pro";
+  letter-spacing: -0.1px;
+  line-height: 1.8;
+  font-size: 13px;
+  margin-bottom: 1rem;
+}
+.size-chart-content-show {
+  border-bottom: 1.5px solid #f5f5f5;
+  padding-bottom: 20px;
+  padding-top: 4px;
+  margin-left: -5px;
+  margin-bottom: 20px;
+}
+.size-chart-content-show .size-chart-size-variant {
+  min-height: 38px;
+  min-width: 38px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  text-align: -webkit-center;
+  margin: 0px 6.5px;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro";
+  font-size: 13px;
+}
+.size-data .left-align {
+  width: 70%;
+}
+.size-data .right-align {
+  width: 15%;
+  text-align: right;
+  color: black;
+}
+.size-chart-head .head {
+  color: rgb(110, 110, 110);
+  font-size: 12px;
+}
+.size-chart-table > div {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #000;
+  font-size: 13px;
+}
+.size-chart-table .size-data-bold {
+}
 
 .description-container .add-cart {
   text-transform: capitalize;
@@ -192,7 +272,7 @@ h5,
   text-transform: capitalize;
 }
 
-.description-container .accordian {
+.accordian-container .accordian {
   margin: 0;
   font-size: 1.4rem;
   font-weight: 400;
@@ -211,7 +291,7 @@ h5,
   padding-right: 1.5rem;
 }
 
-.accordian summary::after {
+.accordian:not(.size-guide) summary::after {
   content: "▸";
   position: absolute;
   right: 0;
@@ -467,14 +547,8 @@ h5,
     padding: 1.5rem 0;
     height: auto;
   }
-  .accordian .accordian {
-    width: 100% !important;
-    display: flex;
-    position: relative;
-    line-height: 1;
-    align-items: center;
-    justify-content: space-between;
-    align-self: center;
+  .size-guide-accordian {
+    display: block;
   }
   .accordian .accordian-data {
     position: initial;

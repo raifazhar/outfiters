@@ -1,23 +1,129 @@
-<div class="size-wrapper">
-                            
-                          <label >
-                            S
-                          </label>
-                            
-                          <label>
-                            M
-                          </label>
-                            
-                         <label >
-                            L
-                          </label>
-                            
-                                    <label >
-                            XL
-                          </label>
-                            
-                          
-                          <labels>
-                            XXL
-                          </labels>
-                          </div>
+<div class="size-chart-main-content">
+  <div class="size-chart-content-data">
+    <div class="size-chart-title">
+      <h2>Size help</h2>
+      <p class="size-chart-subheading">Select size</p>
+    </div>
+    <div class="size-chart-content-show tab">
+      <div class="size-chart-size-variant tablinks active">S</div>
+      <div class="size-chart-size-variant tablinks ">M</div>
+      <div class="size-chart-size-variant tablinks ">L</div>
+      <div class="size-chart-size-variant tablinks ">XL</div>
+      <div class="size-chart-size-variant tablinks ">XXL</div>
+    </div>
+    <div class="top-desc"></div>
+    <div class="size-chart-head">
+      <p class="head">MEASUREMENTS</p>
+      <p class="head right-align">CM</p>
+      <p class="head right-align">INCH</p>
+    </div>
+    <div id="S" class="size-chart-table tabcontent active" "=""><div class=" size-chart-size-data">
+      <div class="size-data-bold">Body Length</div>
+      <div class="size-data-bold right-align">67</div>
+      <div class="size-data-bold right-align">27</div>
+    </div>
+    <div class="size-chart-size-data">
+      <div class="size-data-bold">Chest Width</div>
+      <div class="size-data-bold right-align">47</div>
+      <div class="size-data-bold right-align">19</div>
+    </div>
+    <div class="size-chart-size-data">
+      <div class="size-data-bold">Across Shoulder</div>
+      <div class="size-data-bold right-align">44</div>
+      <div class="size-data-bold right-align">18</div>
+    </div>
+    <div class="size-chart-size-data">
+      <div class="size-data-bold">Sleeve Length</div>
+      <div class="size-data-bold right-align">20</div>
+      <div class="size-data-bold right-align">8</div>
+    </div>
+  </div>
+  <div id="M" class="size-chart-table tabcontent" ><div class=" size-chart-size-data">
+    <div class="size-data-bold">Body Length</div>
+    <div class="size-data-bold right-align">69</div>
+    <div class="size-data-bold right-align">28</div>
+  </div>
+  <div class="size-chart-size-data">
+    <div class="size-data-bold">Chest Width</div>
+    <div class="size-data-bold right-align">50</div>
+    <div class="size-data-bold right-align">20</div>
+  </div>
+  <div class="size-chart-size-data">
+    <div class="size-data-bold">Across Shoulder</div>
+    <div class="size-data-bold right-align">46</div>
+    <div class="size-data-bold right-align">19</div>
+  </div>
+  <div class="size-chart-size-data">
+    <div class="size-data-bold">Sleeve Length</div>
+    <div class="size-data-bold right-align">21</div>
+    <div class="size-data-bold right-align">9</div>
+  </div>
+</div>
+<div id="L" class="size-chart-table tabcontent"><div class=" size-chart-size-data">
+  <div class="size-data-bold">Body Length</div>
+  <div class="size-data-bold right-align">71</div>
+  <div class="size-data-bold right-align">28</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Chest Width</div>
+  <div class="size-data-bold right-align">53</div>
+  <div class="size-data-bold right-align">21</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Across Shoulder</div>
+  <div class="size-data-bold right-align">48</div>
+  <div class="size-data-bold right-align">19</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Sleeve Length</div>
+  <div class="size-data-bold right-align">22</div>
+  <div class="size-data-bold right-align">9</div>
+</div>
+</div>
+<div id="XL" class="size-chart-table tabcontent" "=""><div class=" size-chart-size-data">
+  <div class="size-data-bold">Body Length</div>
+  <div class="size-data-bold right-align">73</div>
+  <div class="size-data-bold right-align">29</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Chest Width</div>
+  <div class="size-data-bold right-align">56</div>
+  <div class="size-data-bold right-align">23</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Across Shoulder</div>
+  <div class="size-data-bold right-align">50</div>
+  <div class="size-data-bold right-align">20</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Sleeve Length</div>
+  <div class="size-data-bold right-align">23</div>
+  <div class="size-data-bold right-align">10</div>
+</div>
+</div>
+<div id="XXL" class="size-chart-table tabcontent" "=""><div class=" size-chart-size-data">
+  <div class="size-data-bold">Body Length</div>
+  <div class="size-data-bold right-align">75</div>
+  <div class="size-data-bold right-align">30</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Chest Width</div>
+  <div class="size-data-bold right-align">59</div>
+  <div class="size-data-bold right-align">24</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Across Shoulder</div>
+  <div class="size-data-bold right-align">52</div>
+  <div class="size-data-bold right-align">21</div>
+</div>
+<div class="size-chart-size-data">
+  <div class="size-data-bold">Sleeve Length</div>
+  <div class="size-data-bold right-align">24</div>
+  <div class="size-data-bold right-align">10</div>
+</div>
+</div>
+</div>
+<div class="size-chart-content-img"><img class="image"
+    src="https://cdn.shopify.com/s/files/1/2290/7887/files/T_shirt_size_chart_New.png?v=1752665453" loading="lazy">
+</div>
+</div>
