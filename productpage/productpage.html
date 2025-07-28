@@ -14,7 +14,7 @@
 
 <body>
     <div id="overlay"></div>
-    <header id="header" class="width-max">hello</header>
+    <header id="header" class="width-max"></header>
 
     <div class="main_page">
         <div class="product-wrapper">
@@ -81,140 +81,193 @@
 
 
                         </div>
-                        <button class="width-max add-cart">
-                            <span>
-
-                                Add to Basket
-                            </span>
-                            <div class="loading-overlay__spinner hidden">
-                                <svg aria-hidden="true" focusable="false" role="presentation" class="spinner"
-                                    viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30">
-                                    </circle>
-                                </svg>
-                            </div>
-                        </button>
-
-                        <details class="accordian width-max">
-                            <summary>
+                        <div class="add-cart-container">
+                            <button class="width-max add-cart">
                                 <span>
-                                    PRODUCT DETAILS & COMPOSITION
+
+                                    Add to Basket
                                 </span>
-                            </summary>
-                            <div class="accordian-data">
-                                <div class="accordian-close-container">
-                                    <button class="accordian-close">
-                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
-                                            role="presentation" class="icon icon-close" fill="none" viewBox="0 0 18 17">
-                                            <path
-                                                d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
-                                                fill="currentColor">
-                                            </path>
-                                        </svg>
-                                    </button>
+                                <div class="loading-overlay__spinner hidden">
+                                    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner"
+                                        viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30">
+                                        </circle>
+                                    </svg>
                                 </div>
-                                <div class="accordian-description height-max">
-                                    <p><strong>FIT : </strong> Regular</p>
-                                    <p>The name says it all the right size slightly snugs the body leaving enough room
-                                        for comfort in the sleeves and waist.
-                                        Does not taper down and offers a relaxed silhouette for your everyday looks
-                                    </p>
-                                    <p><br></p>
-                                    <p><strong> Composition & Care </strong><br></p>
+                            </button>
+                        </div>
 
-                                    <ul>
-                                        <li>100% Cotton</li>
-                                        <li>Machine wash up to 30C/86F, gentle cycle</li>
-                                        <li>Do not bleach</li>
-                                        <li>Iron up to 110C/230F</li>
-                                        <li>Do not iron directly on prints/embroidery/embellishments</li>
-                                        <li>Do not dry clean</li>
-                                        <li>Do not tumble dry</li>
-                                    </ul>
+                        <div class="accordian-container">
+
+                            <details class="accordian width-max">
+                                <summary>
+                                    <span>
+                                        SIZE & FIT GUIDE
+                                    </span>
+                                </summary>
+                                <div class="accordian-data">
+                                    <div class="accordian-close-container">
+                                        <button class="accordian-close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                                                role="presentation" class="icon icon-close" fill="none"
+                                                viewBox="0 0 18 17">
+                                                <path
+                                                    d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+                                                    fill="currentColor">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="accordian-description height-max">
+                                        <p><strong>FIT : </strong> Regular</p>
+                                        <p>The name says it all the right size slightly snugs the body leaving enough
+                                            room
+                                            for comfort in the sleeves and waist.
+                                            Does not taper down and offers a relaxed silhouette for your everyday looks
+                                        </p>
+                                        <p><br></p>
+                                        <p><strong> Composition & Care </strong><br></p>
+
+                                        <ul>
+                                            <li>100% Cotton</li>
+                                            <li>Machine wash up to 30C/86F, gentle cycle</li>
+                                            <li>Do not bleach</li>
+                                            <li>Iron up to 110C/230F</li>
+                                            <li>Do not iron directly on prints/embroidery/embellishments</li>
+                                            <li>Do not dry clean</li>
+                                            <li>Do not tumble dry</li>
+                                        </ul>
+                                    </div>
+
                                 </div>
+                            </details>
+                            <details class="accordian width-max">
+                                <summary>
+                                    <span>
+                                        PRODUCT DETAILS & COMPOSITION
+                                    </span>
+                                </summary>
+                                <div class="accordian-data">
+                                    <div class="accordian-close-container">
+                                        <button class="accordian-close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                                                role="presentation" class="icon icon-close" fill="none"
+                                                viewBox="0 0 18 17">
+                                                <path
+                                                    d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+                                                    fill="currentColor">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="accordian-description height-max">
+                                        <p><strong>FIT : </strong> Regular</p>
+                                        <p>The name says it all the right size slightly snugs the body leaving enough
+                                            room
+                                            for comfort in the sleeves and waist.
+                                            Does not taper down and offers a relaxed silhouette for your everyday looks
+                                        </p>
+                                        <p><br></p>
+                                        <p><strong> Composition & Care </strong><br></p>
 
-                            </div>
-                        </details>
-                        <details class="accordian width-max">
-                            <summary>
-                                <span>
-                                    DELIVERIES & RETURNS
-                                </span>
-                            </summary>
-                            <div class="accordian-data">
-                                <div class="accordian-close-container">
-                                    <button class="accordian-close">
-                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
-                                            role="presentation" class="icon icon-close" fill="none" viewBox="0 0 18 17">
-                                            <path
-                                                d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
-                                                fill="currentColor">
-                                            </path>
-                                        </svg>
-                                    </button>
+                                        <ul>
+                                            <li>100% Cotton</li>
+                                            <li>Machine wash up to 30C/86F, gentle cycle</li>
+                                            <li>Do not bleach</li>
+                                            <li>Iron up to 110C/230F</li>
+                                            <li>Do not iron directly on prints/embroidery/embellishments</li>
+                                            <li>Do not dry clean</li>
+                                            <li>Do not tumble dry</li>
+                                        </ul>
+                                    </div>
+
                                 </div>
-                                <div class="accordian-description height-max">
-                                    <p><strong>FIT : </strong> Regular</p>
-                                    <p>The name says it all the right size slightly snugs the body leaving enough room
-                                        for comfort in the sleeves and waist.
-                                        Does not taper down and offers a relaxed silhouette for your everyday looks
-                                    </p>
-                                    <p><br></p>
-                                    <p><strong> Composition & Care </strong><br></p>
+                            </details>
+                            <details class="accordian width-max">
+                                <summary>
+                                    <span>
+                                        DELIVERIES & RETURNS
+                                    </span>
+                                </summary>
+                                <div class="accordian-data">
+                                    <div class="accordian-close-container">
+                                        <button class="accordian-close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                                                role="presentation" class="icon icon-close" fill="none"
+                                                viewBox="0 0 18 17">
+                                                <path
+                                                    d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+                                                    fill="currentColor">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="accordian-description height-max">
+                                        <p><strong>FIT : </strong> Regular</p>
+                                        <p>The name says it all the right size slightly snugs the body leaving enough
+                                            room
+                                            for comfort in the sleeves and waist.
+                                            Does not taper down and offers a relaxed silhouette for your everyday looks
+                                        </p>
+                                        <p><br></p>
+                                        <p><strong> Composition & Care </strong><br></p>
 
-                                    <ul>
-                                        <li>100% Cotton</li>
-                                        <li>Machine wash up to 30C/86F, gentle cycle</li>
-                                        <li>Do not bleach</li>
-                                        <li>Iron up to 110C/230F</li>
-                                        <li>Do not iron directly on prints/embroidery/embellishments</li>
-                                        <li>Do not dry clean</li>
-                                        <li>Do not tumble dry</li>
-                                    </ul>
+                                        <ul>
+                                            <li>100% Cotton</li>
+                                            <li>Machine wash up to 30C/86F, gentle cycle</li>
+                                            <li>Do not bleach</li>
+                                            <li>Iron up to 110C/230F</li>
+                                            <li>Do not iron directly on prints/embroidery/embellishments</li>
+                                            <li>Do not dry clean</li>
+                                            <li>Do not tumble dry</li>
+                                        </ul>
+                                    </div>
+
                                 </div>
+                            </details>
+                            <details class="accordian width-max">
+                                <summary>
+                                    <span>
+                                        SPECIAL RETURN CONDITIONS*
+                                    </span>
+                                </summary>
+                                <div class="accordian-data">
+                                    <div class="accordian-close-container">
+                                        <button class="accordian-close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                                                role="presentation" class="icon icon-close" fill="none"
+                                                viewBox="0 0 18 17">
+                                                <path
+                                                    d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+                                                    fill="currentColor">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="accordian-description height-max">
+                                        <p><strong>FIT : </strong> Regular</p>
+                                        <p>The name says it all the right size slightly snugs the body leaving enough
+                                            room
+                                            for comfort in the sleeves and waist.
+                                            Does not taper down and offers a relaxed silhouette for your everyday looks
+                                        </p>
+                                        <p><br></p>
+                                        <p><strong> Composition & Care </strong><br></p>
 
-                            </div>
-                        </details>
-                        <details class="accordian width-max">
-                            <summary>
-                                <span>
-                                    SPECIAL RETURN CONDITIONS*
-                                </span>
-                            </summary>
-                            <div class="accordian-data">
-                                <div class="accordian-close-container">
-                                    <button class="accordian-close">
-                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
-                                            role="presentation" class="icon icon-close" fill="none" viewBox="0 0 18 17">
-                                            <path
-                                                d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
-                                                fill="currentColor">
-                                            </path>
-                                        </svg>
-                                    </button>
+                                        <ul>
+                                            <li>100% Cotton</li>
+                                            <li>Machine wash up to 30C/86F, gentle cycle</li>
+                                            <li>Do not bleach</li>
+                                            <li>Iron up to 110C/230F</li>
+                                            <li>Do not iron directly on prints/embroidery/embellishments</li>
+                                            <li>Do not dry clean</li>
+                                            <li>Do not tumble dry</li>
+                                        </ul>
+                                    </div>
+
                                 </div>
-                                <div class="accordian-description height-max">
-                                    <p><strong>FIT : </strong> Regular</p>
-                                    <p>The name says it all the right size slightly snugs the body leaving enough room
-                                        for comfort in the sleeves and waist.
-                                        Does not taper down and offers a relaxed silhouette for your everyday looks
-                                    </p>
-                                    <p><br></p>
-                                    <p><strong> Composition & Care </strong><br></p>
-
-                                    <ul>
-                                        <li>100% Cotton</li>
-                                        <li>Machine wash up to 30C/86F, gentle cycle</li>
-                                        <li>Do not bleach</li>
-                                        <li>Iron up to 110C/230F</li>
-                                        <li>Do not iron directly on prints/embroidery/embellishments</li>
-                                        <li>Do not dry clean</li>
-                                        <li>Do not tumble dry</li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </details>
+                            </details>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,25 +278,56 @@
     <script>
         fetch('../header/header.html')
             .then(res => res.text())
-            .then(data => document.getElementById('header').innerHTML = data);
+            .then(data => {
+                document.getElementById('header').innerHTML = data
+                const logo = document.querySelector(".logo-container")
+                window.addEventListener("scroll", () => {
+                    if (window.scrollY > 0) {
+                        logo.style.opacity = 0;
+                    } else {
+                        logo.style.opacity = 1;
+                    }
+                });
+            });
 
         fetch('../footer/footer.html')
             .then(res => res.text())
             .then(data => document.getElementById('footer').innerHTML = data);
+
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".photo-swiper", {
-            direction: "vertical",
-            mousewheel: true,
-            pagination: {
-                el: ".swiper-pagination",
-                type: "progressbar",
-            },
 
-        });
+        const pagination = document.querySelector(".swiper-pagination")
+        if (window.innerWidth > 750) {
+            var swiper = new Swiper(".photo-swiper", {
+                direction: "vertical",
+                mousewheel: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "progressbar",
+                },
+
+            });
+
+            pagination.classList.remove("mobile")
+
+
+        }
+        else {
+            var swiper = new Swiper(".photo-swiper", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+            });
+
+            pagination.classList.add("mobile")
+
+        }
     </script>
 
     <script>
@@ -406,6 +490,7 @@
                 swiper.update();
                 swiper.slideTo(0, 500);
             }
+
         })
 
     </script>
@@ -421,7 +506,8 @@
 
         accaccordian.forEach((item) => {
             item.querySelector("summary").addEventListener("click", () => {
-                overlay.style.display = "block";
+                if (window.innerWidth >= 750)
+                    overlay.style.display = "block";
 
             });
             const button = item.querySelector(".accordian-close")
@@ -432,6 +518,19 @@
             })
         });
     </script>
+    <script>
+        const addtcart = document.querySelector(".add-cart-container")
+        const offset = addtcart.offsetTop + addtcart.offsetHeight * 2;
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 0 && window.scrollY < offset) {
+                addtcart.classList.add("fixed")
+            }
+            else {
+                addtcart.classList.remove("fixed")
+            }
+        })
+    </script>
+
 </body>
 
 </html>
