@@ -126,6 +126,11 @@ img {
   justify-self: end;
 }
 
+.flex-wrap
+{
+  flex-wrap: wrap;
+}
+
 /* Border */
 .border {
   border: 1px solid #ccc;
